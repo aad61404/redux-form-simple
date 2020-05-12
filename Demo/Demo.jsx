@@ -27,7 +27,7 @@ export default class Demo extends React.Component {
         <button onClick={this.focusTextInput}>Focus the text input</button>
         <p ref={this.textP}>sssss</p>
         <button onClick={this.changeValue}>change value</button>
-        <CustomButton text="步上台階">
+        <CustomButton text="props 傳入">
           <button> 看天上 </button>
         </CustomButton>
       </div>
