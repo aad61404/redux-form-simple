@@ -1,0 +1,70 @@
+a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, figure, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    max-width: inherit;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica Neue,Helvetica,Segoe UI,Arial,freesans,sans-serif;
+    line-height: 1.4em;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 10px 0;
+}
+h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+form {
+    font-size: 16px;
+}
+
+form>div {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+form>div>div {
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 500px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column;
+    position: relative;
+}
+
+form>div>div>* {
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 16px;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+}
+form>div>label {
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 150px;
+    text-align: right;
+    padding: 6px 9px;
+}
+
+
+form>div>div>span {
+    border: none;
+    font-weight: 700;
+    color: #700;
+}
