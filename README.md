@@ -1,7 +1,10 @@
+## --- 20200908 更新 ---
+####  測試 官方 redux example
+####  使用方法 : 將 redux-offical-examples/ 資料夾裡面檔案 複製貼上到 src/  底下取代所有檔案
+來源 : https://chentsulin.github.io/redux/docs/introduction/Examples.html
 
-
---- 20200513 更新 ---
-# 資料夾範例 分類
+#### --- 20200513 更新 ---
+### 資料夾範例 分類
 * React
 * React-Redux
 * Redux-form
