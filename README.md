@@ -1,6 +1,10 @@
 ## --- 20200908 更新 ---
 ####  測試 官方 redux example
-####  使用方法 : 將 redux-offical-examples/ 資料夾裡面檔案 複製貼上到 src/  底下取代所有檔案
+
+####  使用方法 : 假設要看 counter => 將 redux-offical-examples/counter/* 複製貼上到 src/  底下取代所有檔案
+npm install 
+npm start
+
 來源 : https://chentsulin.github.io/redux/docs/introduction/Examples.html
 
 #### --- 20200513 更新 ---
